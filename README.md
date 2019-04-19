@@ -2,10 +2,10 @@
 Prediction of Sentiments using IMDB Movie Reviews
 
 ## Model Overview
-•	The given dataset is a dataset of 50,000 of IMDB movie reviews. Each movie review has a binary response indicating either a positive (1) or a negative (0) movie review. The end goal of the model is to perform sentiment analysis i.e., to classify a new movie review as either a positive movie review or a negative movie review
-•	Ridge regression is used to perform the given sentiment analysis task on the given dataset
-•	The input to the model is a ‘Document-to-term matrix(DTM)’ which is a mathematical matrix that describes the frequency of terms that occur in a collection of documents or in our case, a collection of movie reviews
-•	The output of the model will be a probability vector, which will specify the probability of the outcome being a ‘1’ (positive review)
+- The given dataset is a dataset of 50,000 of IMDB movie reviews. Each movie review has a binary response indicating either a positive (1) or a negative (0) movie review. The end goal of the model is to perform sentiment analysis i.e., to classify a new movie review as either a positive movie review or a negative movie review
+- Ridge regression is used to perform the given sentiment analysis task on the given dataset
+- The input to the model is a ‘Document-to-term matrix(DTM)’ which is a mathematical matrix that describes the frequency of terms that occur in a collection of documents or in our case, a collection of movie reviews
+-	The output of the model will be a probability vector, which will specify the probability of the outcome being a ‘1’ (positive review)
 
 ## Vocabulary Customization
 •	The create the vocabulary, the reviews are tokenized and converted to lowercase void of any punctuation marks
